@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:background="@color/orange"
+    android:layout_height="wrap_content"
+    tools:context=".ChangeDialogFragment">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:textColor="@color/yellow"
+            android:layout_height="wrap_content"
+            android:text="yellow"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:textColor="@color/red"
+            android:layout_height="wrap_content"
+            android:text="red"/>
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="blue"
+            android:textColor="@color/blue"/>
+        <Button
+            android:id="@+id/btn_change_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm"/>
+    </RadioGroup>
+
+
+
+
+</LinearLayout>
